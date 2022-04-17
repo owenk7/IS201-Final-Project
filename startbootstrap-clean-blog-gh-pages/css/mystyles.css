@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    padding-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.custom1{
+    padding-right: 50px;
+}
+.paddingSpace{
+    padding-bottom: 20px;
+}
+
+.byu{
+    position: absolute;
+    top: 700px;
+    left: 175px;
+}
+
+.costco{
+    position: absolute;
+    top: 975px;
+    left: 175px;
+}
+
