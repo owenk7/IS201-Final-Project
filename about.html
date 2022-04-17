@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Kimball Owen - About Me Page</title>
+        <title>Kimball Owen - Resumé Page</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -17,10 +17,16 @@
         <link rel="stylesheet" href="css/mystyles.css">
     </head>
     <body>
+        <div class="byu">
+            <img src="/assets/img/byu.png" alt="BYU Logo" width="150px">
+        </div>
+        <div class="costco">
+            <img src="/assets/img/costco.png" alt="Costco Logo" width="175px">
+        </div>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="https://www.linkedin.com/in/kimball-owen-360023238/" target="_blank">Connect on LinkedIn</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -35,13 +41,13 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/about-bg.jpg')">
+        <header class="masthead" style="background-image: url('assets/img/blackBG.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="page-heading">
                             <h1>About Me</h1>
-                            <span class="subheading">This is what I do.</span>
+                            <span class="subheading">Resumé</span>
                         </div>
                     </div>
                 </div>
@@ -52,24 +58,51 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ol>
-                            <div class="paddingSpace">
-                            <li>Education</li>
-                                <ul>
-                                    <li>Bentonville High School</li>
+                        <a href="#edu" class="custom1">Education</a>    <a href="#WE" class="custom1">Work Experience</a>   <a href="#Skills">Skills</a>
+                            <br>
+                            <br>
+                            <ol>
+                                <div class="paddingSpace">
+                                    <li id="edu">Education</li>
                                         <ul>
-                                            <li>High School Diploma</li>
+                                            <li>Bentonville High School</li>
+                                                <ul>
+                                                    <li>High School Diploma</li>
+                                                </ul>
+                                            <li>Brigham Young University</li>
+                                                <ul>
+                                                    <li>Master's Degree in Accounting or Information Systems (In Progress)</li>
+                                                </ul>
                                         </ul>
-                                </ul>
-                            </div>
-                            <li>Work Experience</li>
-                                <ul>
-                                    <li>City of Bentonville</li>
-                                    <li>BYU Print and Mail Services</li>
-                                    <li>Costco Wholesale</li>
-                                </ul>
-                            <li>Skills</li>
-                        </ol>
+                                </div>
+                                <div class="paddingSpace">
+                                    <li id="WE">Work Experience</li>
+                                        <ul>
+                                            <li>City of Bentonville</li>
+                                                <ul>
+                                                    <li>Lifeguard, Head Guard</li>
+                                                </ul>
+                                            <li>BYU Print and Mail Services</li>
+                                                <ul>
+                                                    <li>Copy Center Specialist</li>
+                                                </ul>
+                                            <li>Costco Wholesale</li>
+                                                <ul>
+                                                    <li>Bakery Sanitation Assistant</li>
+                                                </ul>
+                                        </ul>
+                                </div>
+                                <div class="paddingSpace">
+                                <li id="Skills">Skills</li>
+                                    <ul>
+                                        <li>Excel Automation (VBA)</li>
+                                        <li>Statistics in Excel</li>
+                                        <li>Optimization in Excel (Solver)</li>
+                                        <li>Tableau</li>
+                                        <li>Web Development</li>
+                                    </ul>
+                                </div>
+                            </ol>
                     </div>
                 </div>
             </div>
@@ -78,34 +111,9 @@
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <a href="#top">Back to top</a>
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2022</div>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Kimball Owen 2022</div>
                     </div>
                 </div>
             </div>

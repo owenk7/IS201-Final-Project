@@ -1,3 +1,51 @@
+head{
+    position: absolute;
+}
+
+
 body{
-    background-color: azure;
+    background-color: rgba(190, 78, 12, 0.774);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common{
+    position: absolute;
+}
+
+.tableauRef{
+    font-size: small;
+}
+
+.tl{
+    width: 725px;
+    top: 150px;
+    left: 10px;
+}
+
+.tr{
+    top: 150px;
+    right: 10px;
+    width: 725px;
+}
+
+.bl{
+    top: 650px;
+    left: 10px;
+    width: 725px;
+}
+
+.br{
+    top: 650px;
+    right: 10px;
+    width: 725px;
+}
+
+.footer{
+    top: 1100px;
+    left: 670px;
 }
